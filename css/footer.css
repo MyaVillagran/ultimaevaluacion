@@ -1,0 +1,178 @@
+.footer {
+    width: 100%;
+    height: 115rem;
+    background-color: var(--color3);
+}
+
+.footer h1 {
+    width: 100%;
+    font-size: 2.8rem;
+    color: var(--color1);
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+
+.footer .lugar {
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-top: 4rem;
+    margin-left: 2rem;
+    color: var(--color1);
+}
+
+.footer .uno {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer .dos {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer .tres {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer img {
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.footer .location p {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    color: var(--color1);
+}
+
+.footer .ae {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer .ae h3 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-top: 4rem;
+    margin-left: 2rem;
+    color: var(--color1); 
+}
+
+.footer .columna_2 {
+    margin-left: 3rem;
+}
+
+.footer .ae p {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    color: var(--color1);
+} 
+
+.footer .otro h3 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-top: 4rem;
+    margin-left: 2rem;
+    color: var(--color1); 
+}
+
+.footer .otro p {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    color: var(--color1) 
+}
+
+.footer .fotos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12rem;
+}
+
+.footer .marquita {
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    margin-left: 12rem;
+    color: var(--color1);
+}
+
+@media only screen and (min-width: 1366px) {
+
+    .footer {
+        height: 85rem;
+    }
+
+    .footer .megacaja {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footer .cajota {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer h1 {
+        width: 100%;
+        font-size: 4rem;
+        color: var(--color1);
+        margin-left: 12rem;
+    }
+
+    .footer .ai {
+        margin-top: 12rem;
+    }
+
+    .footer .lugar {
+        margin-left: 2rem;
+    }
+
+    .footer .location {
+        margin-left: 12rem;
+    }
+
+    .footer .location img {
+         width: 2rem;
+         height: 1.5rem;
+    }
+
+    .footer .ae {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin-top: 8rem;
+    }
+
+    .footer .columna_2 {
+        margin-left: 10rem;
+    } 
+
+    .footer .otro {
+        width: 100%;
+    }
+
+    .footer .otro h3 {
+        font-size: 1.5rem;
+        font-weight: 900;
+        margin-top: 12rem;
+        margin-left: 10rem;
+        color: var(--color1); 
+    }
+
+    .footer .otro p {
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
+        margin-left: 10rem;
+        color: var(--color1) 
+    }
+
+    
+
+}

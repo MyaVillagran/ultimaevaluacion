@@ -1,0 +1,45 @@
+.We_love {
+    width: 100%;
+    height: 120rem;
+    background-color: var(--color4);
+}
+
+.We_love img {
+    width: 37rem;
+    height: 30rem;
+   padding: 3rem;
+}
+
+.We_love h1 {
+    width: 100%;
+    font-size: 4rem;
+    padding: 0 3rem;
+    color: var(--color1);
+}
+
+.We_love p {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    color: var(--color1);
+}
+
+@media only screen and (min-width: 1366px) {
+
+    .We_love {
+        height: auto;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .We_love img {
+        width: 75rem;
+        height: 60rem;
+       margin: 8rem;
+    }
+
+    .We_love div {
+        margin: 8rem;
+    }
+
+}

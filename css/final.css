@@ -1,0 +1,107 @@
+.final {
+    width: 100%;
+    height: 55em;
+    background-color: var(--color2);
+}
+
+.final h1 {
+    width: 100%;
+    font-size: 3rem;
+    font-weight: 800;
+    padding: 3rem;
+   color: var(--color3);
+}
+
+.final p {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    color: var(--color3);
+}
+
+.final a {
+    text-decoration: none;
+    display: block;
+    width: 12rem;
+    height: 7rem;
+    background-color: var(--color1);
+    color: var(--color3);
+    font-size: 2rem;
+    margin-left: 12rem;
+   padding-top: 2rem;
+   padding-left: 1rem;
+   border-radius: 25%;
+}
+
+.final img {
+
+    padding: 2rem 15rem 2rem;
+}
+
+.final span {
+    font-size: 2rem;
+    margin-left: 10rem;
+    color: var(--color3);
+}
+
+.final .abajo {
+    margin-left: 13rem;
+}
+
+@media only screen and (min-width: 1366px) {
+
+    .final {
+        height: auto;
+    }
+
+    .final h1 {
+        font-size: 5rem;
+        padding: 15rem 15rem 0 15rem;
+        margin-left: 6rem;
+    }
+
+    .final p {
+        font-size: 4rem;
+        margin-top: 2rem;
+        margin-left: 3rem;
+        padding: 0 15rem 2rem 15rem;
+        color: var(--color3);
+    }
+
+    .final a {
+        width: 18rem;
+        height: 10rem;
+        font-size: 3rem;
+        margin-top: 5rem;
+        margin-left: 60rem;
+       padding-top: 3rem;
+       padding-left: 2rem;
+    }
+
+ .final .cositaschikitas {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5rem;
+ }
+
+ .final .textito {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .final img {
+    padding: 2rem;
+    margin-left: 54rem;
+}
+
+.final span {
+    font-size: 2rem;
+    margin-left: 0;
+    color: var(--color3);
+}
+
+.final .abajo {
+    margin-left: 0;
+}
+
+}

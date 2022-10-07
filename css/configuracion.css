@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 10px;}
+
+
+:root {
+    --color1 : rgb(45, 53, 99);
+    --color2 : rgb(57, 103, 231);
+    --color3 : rgb(255, 255, 255);
+    --color4 : rgb(252, 207, 207);
+}
